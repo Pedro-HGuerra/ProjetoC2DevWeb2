@@ -7,7 +7,6 @@ Este projeto consiste em uma implementação de API utilizando o Node.js. A API 
 - [Funcionalidades](#funcionalidades)
 - [Instalação](#instalação)
 - [Uso](#uso)
-- [Endpoints](#endpoints)
 - [Dependências](#dependências)
 - [Licença](#licença)
 
@@ -36,5 +35,45 @@ Este projeto consiste em uma implementação de API utilizando o Node.js. A API 
 Para configurar o projeto localmente, siga os passos abaixo:
 
 1. Clone o repositório:
-   ```bash
+```
    git clone https://github.com/Pedro-HGuerra/ProjetoC2DevWeb2.git
+```
+2. Navegue até o diretório do projeto:
+
+```
+cd ProjetoC2
+```
+3. Instale as dependências:
+
+```
+npm install
+```
+
+4. Gere o Prisma Client:
+```
+npx prisma generate
+```
+
+5. Sincronize o banco de dados com o esquema Prisma:
+```
+npx prisma migrate dev --name init
+```
+
+## 💻 Uso
+Após a instalação das dependências, você pode iniciar a API com o seguinte comando:
+
+```
+npm run dev
+```
+Por padrão, a API estará disponível em http://localhost:3000.
+
+## 📦 Dependências
+Aqui estão as principais dependências utilizadas neste projeto:
+
+- **Express**: Framework para criação de aplicações web.
+- **Prisma**: ORM moderno para Node.js e TypeScript.
+- **TypeScript**: Superconjunto tipado de JavaScript que compila para JavaScript puro.
+- **Para ver todas as dependências e suas versões, consulte o arquivo package.json**.
+
+## 📄 Licença
+Este projeto está licenciado sob os termos da MIT License.
