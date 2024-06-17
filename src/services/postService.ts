@@ -1,4 +1,3 @@
-
 import * as postModel from '../models/postModel';
 
 export const getAllPosts = async () => {

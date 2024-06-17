@@ -1,4 +1,3 @@
-
 import * as commentModel from '../models/commentModel';
 
 export const getAllComments = async () => {

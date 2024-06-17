@@ -49,16 +49,6 @@ cd ProjetoC2
 npm install
 ```
 
-4. Gere o Prisma Client:
-```
-npx prisma generate
-```
-
-5. Sincronize o banco de dados com o esquema Prisma:
-```
-npx prisma migrate dev --name init
-```
-
 ## 💻 Uso
 Após a instalação das dependências, você pode iniciar a API com o seguinte comando:
 
